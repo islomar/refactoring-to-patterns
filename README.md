@@ -5,5 +5,11 @@ Course website:
 http://content.geekshubsacademy.com/courses/GeeksHubs/ed1/2015-refactoring-patrones/
 
 ##Session 1: Open SCAD
-IDE: http://www.openscad.org/
+IDE: 
+http://www.openscad.org/
+
 Source code:
+https://github.com/TomHodson/Raspberry-Pi-OpenSCAD-Model
+
+CheatSheet:
+http://www.openscad.org/cheatsheet/
