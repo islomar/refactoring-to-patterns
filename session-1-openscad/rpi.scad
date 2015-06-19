@@ -6,18 +6,20 @@ WIDTH = 56;
 LENGTH = 85;
 HEIGHT = 1.5;
 
+METALLIC = "silver";
 
 module ethernet_port ()
 	{
-	color("silver")
-	translate([LENGTH-20,1.5,HEIGHT]) cube([21.2,16,13.3]); 
+	color(METALLIC)
+        translate([LENGTH-20,1.5,HEIGHT]) 
+            cube([21.2,16,13.3]); 
 	}
 
 
 module usb ()
 	{
 	//usb port
-	color("silver")
+	color(METALLIC)
 	translate([LENGTH-9.5,25,HEIGHT]) cube([17.3,13.3,16]);
 	}
 
@@ -61,14 +63,14 @@ module gpio ()
 
 module hdmi ()
 	{
-	color ("silver")
+	color (METALLIC)
 	translate ([37.1,-1,HEIGHT])
 	cube([15.1,11.7,8-HEIGHT]);
 	}
 
 module power ()
 	{
-	color("silver")
+	color(METALLIC)
 	translate ([-0.8,3.8,HEIGHT])
 	cube ([5.6, 8,4.4-HEIGHT]);
 	}
