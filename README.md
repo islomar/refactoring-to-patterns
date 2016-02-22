@@ -8,7 +8,10 @@ Course website:
 Noysi chat: https://noysi.com/a/#/teams/geekshubs/channels/general/chat
 
 
-##Session 1: Open SCAD
+##Sesión 1: Mecánicas y Open SCAD
 * **IDE:** http://www.openscad.org/
 * **Source code:** https://github.com/TomHodson/Raspberry-Pi-OpenSCAD-Model
 * **CheatSheet:** http://www.openscad.org/cheatsheet/
+
+* Comentarios:
+  * No estoy de acuerdo con eliminar la unidad (milímetros), la añadiría a las constantes como sufijo (e.g. "_IN_MM")
