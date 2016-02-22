@@ -24,12 +24,11 @@ module ethernet_port ()
             cube(ETHERNET_DIMENSIONS); 
 	}
 
-
-module usb ()
+module usb_port ()
 	{
-	//usb port
 	color(METALLIC)
-	translate([LENGTH-9.5,25,HEIGHT]) cube([17.3,13.3,16]);
+        translate([LENGTH-9.5,25,HEIGHT]) 
+            cube([17.3,13.3,16]);
 	}
 
 module composite ()
@@ -140,7 +139,7 @@ module rpi ()
 	{
 		pcb ();
 		ethernet_port ();
-		usb (); 
+		usb_port (); 
 		composite (); 
 		audio (); 
 		gpio (); 
