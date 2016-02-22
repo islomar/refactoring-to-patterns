@@ -1,5 +1,3 @@
-//everything in mm
-
 use <pin_headers.scad>;
 
 WIDTH = 56;
