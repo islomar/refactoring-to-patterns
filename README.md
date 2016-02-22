@@ -13,5 +13,12 @@ Noysi chat: https://noysi.com/a/#/teams/geekshubs/channels/general/chat
 * **Source code:** https://github.com/TomHodson/Raspberry-Pi-OpenSCAD-Model
 * **CheatSheet:** http://www.openscad.org/cheatsheet/
 
+* Pasos dados_
+  * Eliminado comentario en cabecera sobre unidades
+  * Constantes en mayúsculas. 
+  * Eliminados los comentarios sobre el tipo de módulo, incluído en el nombre de las propias funciones.
+  * Extraemos offset y dimensions para pasarlo como parámetros.
+  * Fuera magic numbers: extrae todo a variables/constantes dentro del método.
+
 * Comentarios:
   * No estoy de acuerdo con eliminar la unidad (milímetros), la añadiría a las constantes como sufijo (e.g. "_IN_MM")
