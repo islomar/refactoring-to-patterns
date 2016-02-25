@@ -32,13 +32,12 @@ module usb_port ()
             cube([17.3,13.3,16]);
 	}
 
-module composite ()
+module composite_port ()
 	{
-	//composite port
 	translate([LENGTH-43.6,WIDTH-12,HEIGHT])
 		{
 		color("yellow")
-		cube([10,10,13]);
+            cube([10,10,13]);
 
 		translate([5,19,8])
             rotate([90,0,0])
@@ -141,7 +140,7 @@ module rpi ()
 		pcb ();
 		ethernet_port ();
 		usb_port (); 
-		composite (); 
+		composite_port (); 
 		audio (); 
 		gpio (); 
 		hdmi ();
