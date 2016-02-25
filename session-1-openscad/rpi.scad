@@ -4,6 +4,8 @@ WIDTH = 56;
 LENGTH = 85;
 HEIGHT = 1.5;
 
+RIGHT = [90,0,0];
+
 METALLIC = "silver";
 CHROME = [.9, .9, .9];
 
@@ -33,15 +35,16 @@ module usb_port ()
 	}
 
 module composite_block () {
-		color("yellow")
-            cube([10,10,13]);
+    color("yellow")
+        cube([10,10,13]);
 }
 
 module composite_jack () {
-        translate([5,19,8])
-            rotate([90,0,0])
-                color(CHROME)
-                    cylinder(h = 9.3, r = 4.15, $fs=.5);
+    fine = .5;
+    translate([5,19,8])
+        rotate(RIGHT)
+            color(CHROME)
+                cylinder(h = 9.3, r = 4.15, $fs=fine);
 }
     
 module composite_port ()
