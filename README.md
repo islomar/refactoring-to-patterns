@@ -1,6 +1,8 @@
 # Refactoring to Patterns
 Exercises from the "Refactoring to patterns" course by Xavi Ghost (@XaV1uzz).
 
+GitHub:   https://github.com/curso-refactoring
+
 Course website:
 * (First edition - 2015)[http://content.geekshubsacademy.com/courses/GeeksHubs/ed1/2015-refactoring-patrones/]
 * (Second edition - 2016)[http://content.geekshubsacademy.com/courses/GeeksHubsAcademy/2016-REFACTORING/2016_T1/courseware/eb61ecc796be47fda8334409f644e920/a31e0150e4f14576bcc65d123f6f4867/]
@@ -11,7 +13,8 @@ Chats:
 
 ##Sesión 1: Mecánicas y Open SCAD
 * **IDE:** http://www.openscad.org/
-* **Source code:** https://github.com/TomHodson/Raspberry-Pi-OpenSCAD-Model
+* **Original Source code:** https://github.com/TomHodson/Raspberry-Pi-OpenSCAD-Model
+* **Xavi&Repli solution:**    https://github.com/curso-refactoring/Raspberry-Pi-OpenSCAD-Model
 * **CheatSheet:** http://www.openscad.org/cheatsheet/
 
 * Pasos dados_
@@ -39,12 +42,15 @@ Refactors de esta primera sesión: https://fd-files-production.s3.amazonaws.com/
 
 
 ##Sesión 2: de procedural a objetos
-* Código: https://github.com/wes/phpimageresize
+* Código: 
+  * https://github.com/wes/phpimageresize
+  * https://github.com/curso-refactoring/phpimageresize
 
 
 
 ##Links de interés:
 * https://refactoring.guru/
+* https://sourcemaking.com/refactoring/simplifying-conditional-expressions
 * Martin Fowler: (Workflows of Refactoring)[https://www.youtube.com/watch?v=vqEg37e4Mkw]
 
 
