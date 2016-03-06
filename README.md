@@ -51,7 +51,7 @@ Refactors de esta primera sesión: https://fd-files-production.s3.amazonaws.com/
 `$ phpunit test`
 
 ##Bookmark
-Session 2 > 15:00
+Session 2 > 37:00
 
 
 ##Links de interés:
