@@ -11,9 +11,20 @@ class Options
     public function __construct($opts = array())
     {
 
-        $defaults = array('crop' => false, 'scale' => 'false', 'thumbnail' => false, 'maxOnly' => false,
-            'canvas-color' => 'transparent', 'output-filename' => false,
-            'cacheFolder' => self::CACHE_FOLDER, 'remoteFolder' => self::REMOTE_FOLDER, 'quality' => 90, 'cache_http_minutes' => 20);
+        if ($opts == null) {
+            $opts = array();
+        }
+
+        $defaults = array('crop' => false,
+            'scale' => 'false',
+            'thumbnail' => false,
+            'maxOnly' => false,
+            'canvas-color' => 'transparent',
+            'output-filename' => false,
+            'cacheFolder' => self::CACHE_FOLDER,
+            'remoteFolder' => self::REMOTE_FOLDER,
+            'quality' => 90,
+            'cache_http_minutes' => 20);
 
         $this->opts = array_merge($defaults, $opts);
     }

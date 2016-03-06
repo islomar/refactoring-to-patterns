@@ -5,7 +5,7 @@ include 'Options.php';
 class FunctionResizeTest extends PHPUnit_Framework_TestCase
 {
 
-    public function testDumb()
+    public function testOptionsInstantiation()
     {
         $this->assertInstanceOf('Options', new Options);
     }
@@ -25,8 +25,10 @@ class FunctionResizeTest extends PHPUnit_Framework_TestCase
             'cache_http_minutes' => 20);
 
         $asHash = $options->asHash();
-
         $this->assertEquals($defaults, $asHash);
+
+        $nullOptions = new Options(null);
+        $this->assertEquals($defaults, $nullOptions->asHash());
     }
 }
 
