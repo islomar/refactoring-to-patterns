@@ -46,6 +46,11 @@ Refactors de esta primera sesión: https://fd-files-production.s3.amazonaws.com/
   * https://github.com/wes/phpimageresize
   * https://github.com/curso-refactoring/phpimageresize
 
+* PHP installation: https://lastzero.net/2015/10/howto-install-php-5-6-and-phpunit-5-0-on-mac-os-x/
+
+
+##Bookmark
+Session 2 > 15:00
 
 
 ##Links de interés:

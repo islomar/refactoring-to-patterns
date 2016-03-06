@@ -1,9 +1,11 @@
 <?php
 
+include 'Options.php';
+
 class FunctionResizeTest extends PHPUnit_Framework_TestCase {
 
     public function testDumb() {
-        $this->assertTrue(true);
+        $this->assertInstanceOf('Options', new Options);
     }
 }
 
