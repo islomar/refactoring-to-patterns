@@ -19,18 +19,23 @@ class Options
 
     public function __construct($opts = array())
     {
+        $sanitizedOpts = $this->sanitize($opts);
 
-        if ($opts == null) {
-            $opts = array();
-        }
-
-
-        $this->opts = array_merge(self::DEFAULTS, $opts);
+        $this->opts = array_merge(self::DEFAULTS, $sanitizedOpts);
     }
 
     public function asHash()
     {
         return $this->opts;
+    }
+
+    private function sanitize($opts) {
+        $result = array();
+
+        if ($opts != null) {
+            $result = $opts();
+        }
+        return $result;
     }
 
 }
